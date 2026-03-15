@@ -1,31 +1,30 @@
-Clasificación de Cáncer de Mama en Imágenes Histopatológicas (BreakHis)
+# Clasificación de Cáncer de Mama en Imágenes Histopatológicas (BreakHis)
 
 Este proyecto realiza un análisis comparativo entre dos arquitecturas de Redes Neuronales Convolucionales (CNN) para la detección de tumores benignos y malignos utilizando el dataset BreakHis. El objetivo principal es evaluar el desempeño de una CNN personalizada entrenada desde cero frente a una ResNet18 pre-entrenada mediante Transfer Learning.
 
-📌 Descripción del Proyecto
+## 📌 Descripción del Proyecto
 
 El diagnóstico temprano del cáncer de mama es vital. Este proyecto utiliza visión artificial para procesar biopsias digitales y automatizar la clasificación. Se exploran métricas no solo a nivel de imagen individual, sino también a nivel de paciente (vía votación mayoritaria), lo cual refleja con mayor precisión la realidad clínica.
 
-Características Principales:
+## Características Principales:
 
-Dataset: BreakHis (9,109 imágenes de 82 pacientes).
+- Dataset: BreakHis (9,109 imágenes de 82 pacientes).
 
-Modelos: 1. CNN Personalizada (TensorFlow/Keras).
+- Modelos: 
+1. CNN Personalizada (TensorFlow/Keras).
 2. ResNet18 (PyTorch) con pesos de ImageNet.
+- Niveles de Magnificación: 40X, 100X, 200X y 400X.
 
-Niveles de Magnificación: 40X, 100X, 200X y 400X.
-
-📂 Estructura del Repositorio
-
+## 📂 Estructura del Repositorio
 El proyecto está organizado en dos formatos para facilitar tanto la lectura rápida como el mantenimiento:
 
-1. Versiones de Cuadernos Principales
+### 1. Versiones de Cuadernos Principales
 
 CNN ResNet18.ipynb: Implementación completa del modelo ResNet18 usando PyTorch.
 
 Compacted version - Customized CNN.ipynb: Versión "todo en uno" de la CNN personalizada para una ejecución rápida.
 
-2. Versión Modularizada (Carpeta: Modularized version - Customized CNN)
+### 2. Versión Modularizada (Carpeta: Modularized version - Customized CNN)
 
 Ideal para producción o entendimiento paso a paso:
 
@@ -37,13 +36,13 @@ modelTraining.ipynb: Definición de la arquitectura, entrenamiento y guardado de
 
 model_testing.ipynb: Evaluación exhaustiva, matrices de confusión y métricas por paciente.
 
-3. Documentación y Resultados
+### 3. Documentación y Resultados
 
 Slides Presentation + Project insights.pdf: Presentación ejecutiva con los hallazgos clave.
 
 paperwork - Breast detection insights.pdf: Documentación detallada de la metodología e investigación.
 
-🚀 Cómo Continuar y Mejorar el Proyecto
+## Cómo Continuar y Mejorar el Proyecto
 
 Si deseas llevar este proyecto al siguiente nivel, aquí tienes algunas rutas recomendadas:
 
