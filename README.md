@@ -70,4 +70,10 @@ Análisis de Errores: Revisar manualmente las imágenes que el modelo clasifica 
 
 Entorno de Ejecución: Se recomienda el uso de GPUs (como las disponibles en Kaggle o Google Colab) debido al volumen de datos y la profundidad de ResNet18.
 
+## 🚀 Aplicación de Prueba en Tiempo Real
+
+Hemos desarrollado una aplicación interactiva con **Streamlit** que permite probar el modelo de detección de cáncer de mama en tiempo real. La aplicación permite cargar imágenes histopatológicas y obtener predicciones instantáneas, incluyendo visualizaciones Grad-CAM para interpretar las decisiones del modelo.
+
+👉 **Repositorio de la aplicación:** [breast-cancer-diagnosis-streamlit](https://github.com/EduardoTllo/breast-cancer-diagnosis-streamlit)
+
 Este proyecto fue desarrollado por: Eduardo Tello, Abel Escobar, Luis Romero y Adrián Sandoval.
